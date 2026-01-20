@@ -351,6 +351,7 @@ export default function Index() {
             </div>
           </div>
         </div>
+        <h3>Developed by Sejal Dewangan </h3>
       </footer>
     </div>
   );
