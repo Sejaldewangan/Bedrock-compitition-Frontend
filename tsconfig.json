@@ -1,12 +1,15 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ],
-  
   "compilerOptions": {
-    "types": ["node"]
-  }
-
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "types": ["node"] // <--- Add this here
+  },
+  "include": [
+    "tailwind.config.ts", // <--- Explicitly include the tailwind file
+    "vite.config.ts" 
+  ]
 }
