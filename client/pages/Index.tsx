@@ -56,7 +56,7 @@ export default function Index() {
             </div>
             <Link
               to="/register"
-              className="bg-primary text-primary-foreground px-6 py-2 rounded-lg font-semibold hover:opacity-90 transition-opacity"
+              className="bg-primary text-primary-foreground px-6 py-2 rounded-lg font-semibold hover:opacity-90 transition-opacity sm:text-sm "
             >
               Register Now
             </Link>
@@ -202,8 +202,8 @@ export default function Index() {
                 Registration Phase
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Teams can register from now until December 31st, 2024. Each team must have a minimum of 3 players
-                and a maximum of 5 players. All players must be 13 years or older and agree to the tournament rules.
+                players can register from now until 28th of Febuary, 2026. Each player can have a team  (minimum of 3 players
+                and a maximum of 5 players). All players must be 8 years or older and agree to the tournament rules.
               </p>
             </div>
 
@@ -351,7 +351,7 @@ export default function Index() {
             </div>
           </div>
         </div>
-        <h3>Developed by Sejal Dewangan </h3>
+       <div className="flex flex-wrap justify-center "> <Link className=" font-italic text-center p-4  font-serif text-muted-foreground hover:text-primary transition-colors duration-300 delay-20 transition-smooth hover:cursor-pointer" to={"https://github.com/Sejaldewangan"}>Developed by Sejal Dewangan</Link></div>
       </footer>
     </div>
   );
